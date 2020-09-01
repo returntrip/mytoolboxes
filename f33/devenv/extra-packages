@@ -1,0 +1,16 @@
+starship
+gcc
+rpm-build
+rpm-devel
+rpmlint
+make
+python
+bash
+coreutils
+diffutils
+patch
+rpmdevtools
+fedora-packager
+fedora-review
+rust2rpm
+fedora-repos-rawhide

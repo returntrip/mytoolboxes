@@ -2,6 +2,11 @@
 
 These toolbox images are tailored for my own use and stored in quay.io.
 
+## To-do
+
+- Fix Fedora release 33
+- Fix Fedora rawhide (when base container is available)
+
 ## Current toolbox images
 
 ### devenv - toolbox
