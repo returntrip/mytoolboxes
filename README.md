@@ -2,25 +2,26 @@
 
 These toolbox images are tailored for my own use and stored in quay.io.
 
-## devenv - toolbox
+## Current toolbox images
 
+### devenv - toolbox
 Preinstalled dev environment to build `rpm` packages. Also used for Fedora package reviews.
 
-## base - toolbox
-
+### base - toolbox
 Preinstalled base environment used to complement packages installed via `rpm-ostree`.
+
+## Usage
+
 You can either use `toolbox run --container <container> <command>` to launch the preinstalled package or
-you can create a shim, store it (for instance) in `~/.local/bin` and `ln -s <shim_script> <package_binary>`  to launch a preinstalled package:
+you can create a shim, store it somewhere in your `PATH` (for instance in `~/.local/bin`), `ln -s <shim_script> <package_binary>`  and finally launch a preinstalled package:
 
-```
-#!/bin/sh
-basename_bin=$(basename $0)
-exec toolbox run --container <container> $basename_bin "$@"
-```
+### Example usage
 
-## Example usage
+Assuming you want to run `ranger` and you want to name your container `base`:
 
-Assuming you want run `ranger` and your base container is named `base`:
+- Create the toolbox:
+
+    `toolbox create --container base --image quay.io/returntrip/base-fedora-toolbox`
 
 - Create a shim:
 
