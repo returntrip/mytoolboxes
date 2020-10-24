@@ -8,8 +8,7 @@ LABEL name="$FGC/$NAME"                                               \
       maintainer="Stefano Figura <stefano@figura.im>"
 
 COPY extra-packages /
-RUN dnf clean all                        \
-    && dnf -y upgrade                    \
+RUN dnf -y upgrade                       \
     && dnf -y install $(<extra-packages) \
     && rm /extra-packages                \
     && dnf clean all
