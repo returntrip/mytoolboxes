@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/f33/fedora-toolbox
+FROM registry.fedoraproject.org/f33/fedora-toolbox:33
 
 ENV NAME=devenv-fedora-toolbox VERSION=33
 LABEL name="$FGC/$NAME"                                               \
