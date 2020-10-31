@@ -1,1 +1,9 @@
-extra-packages
+starship
+imv
+wf-recorder
+mpv
+ranger
+mesa-dri-drivers
+playerctl
+mpv-mpris
+youtube-dl
