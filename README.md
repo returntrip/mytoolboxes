@@ -6,11 +6,6 @@ Devenv Toolbox: [![Docker Repository on Quay](https://quay.io/repository/returnt
 
 These toolbox images are tailored for my own use and stored in quay.io.
 
-## To-do
-
-- Fix Fedora release 33
-- Fix Fedora rawhide (when base container is available)
-
 ## Current toolbox images
 
 ### devenv - toolbox
@@ -20,12 +15,10 @@ Preinstalled dev environment to build `rpm` packages. Also used for Fedora packa
 Preinstalled base environment used to complement packages installed via `rpm-ostree`.
 
 ## Usage
-
 You can either use `toolbox run --container <container> <command>` to launch the preinstalled package or
 you can create a shim, store it somewhere in your `PATH` (for instance in `~/.local/bin`), `ln -s <shim_script> <package_binary>`  and finally launch a preinstalled package:
 
 ### Example usage
-
 Assuming you want to run `ranger` and you want to name your container `base`:
 
 - Create the toolbox:
