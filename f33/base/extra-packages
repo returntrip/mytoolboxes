@@ -7,3 +7,7 @@ mesa-dri-drivers
 playerctl
 mpv-mpris
 youtube-dl
+qutebrowser
+qt5-qtwayland
+brightnessctl
+nmap-ncat
