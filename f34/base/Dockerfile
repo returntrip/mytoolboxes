@@ -1,7 +1,7 @@
-FROM registry.fedoraproject.org/f34/fedora-toolbox:34
+FROM registry.fedoraproject.org/fedora-toolbox:34
 
 ENV NAME=base-fedora-toolbox VERSION=34
-LABEL name="$FGC/$NAME"                                                     \
+LABEL name="$NAME"                                                     \
       version="$VERSION"                                                    \
       usage="This image is meant to be used with the toolbox command"       \
       summary="Base system toolbox image. Use to install system wide tools" \

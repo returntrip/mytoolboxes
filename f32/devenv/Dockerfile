@@ -1,7 +1,7 @@
-FROM registry.fedoraproject.org/f32/fedora-toolbox:32
+FROM registry.fedoraproject.org/fedora-toolbox:32
 
 ENV NAME=devenv-fedora-toolbox VERSION=32
-LABEL name="$FGC/$NAME"                                               \
+LABEL name="$NAME"                                               \
       version="$VERSION"                                              \
       usage="This image is meant to be used with the toolbox command" \
       summary="Developer environment toolbox image"                   \
