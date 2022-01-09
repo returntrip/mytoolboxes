@@ -15,3 +15,5 @@ fedora-review
 rust2rpm
 fedora-repos-rawhide
 python3-koji-cli-plugins
+jq
+knot-utils
