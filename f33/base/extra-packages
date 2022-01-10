@@ -10,6 +10,7 @@ youtube-dl
 qutebrowser
 qt5-qtwayland
 brightnessctl
+nmap
 nmap-ncat
 pulseaudio-utils
 jq
