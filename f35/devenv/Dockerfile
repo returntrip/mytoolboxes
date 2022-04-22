@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora-toolbox:34
+FROM registry.fedoraproject.org/fedora-toolbox:35
 
 ENV NAME=devenv-fedora-toolbox VERSION=35
 LABEL name="$NAME"                                                    \
